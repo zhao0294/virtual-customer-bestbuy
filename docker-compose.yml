@@ -20,7 +20,7 @@ services:
     networks:
       - backend_services
   order-service:
-    build: ../order-service
+    image: ramymohamed/order-service-l8:latest
     container_name: 'order-service'
     restart: always
     ports:
