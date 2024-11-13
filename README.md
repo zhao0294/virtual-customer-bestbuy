@@ -1,6 +1,6 @@
 # virtual-customer
 
-This is a Rust app that simulates order submission. It is meant to be used in conjunction with the [order-service](../makeline-service) to simulate customers submitting orders over a period of time.
+This is a Rust app that simulates order submission. It is meant to be used in conjunction with the order-service to simulate customers submitting orders over a period of time.
 
 ## Running the app locally
 
@@ -12,7 +12,7 @@ This is a Rust app that simulates order submission. It is meant to be used in co
 
 ### Running the app
 
-This app relies on the [order-service](../order-service) and the rabbitmq instance running. A docker-compose file is provided to make this easy. 
+This app relies on the order-service and the rabbitmq instance running. A docker-compose file is provided to make this easy. 
 
 To run the necessary services, clone the repo, open a terminal, and navigate to the `virtual-customer` directory. Then run the following command:
 
