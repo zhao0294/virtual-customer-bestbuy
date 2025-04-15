@@ -21,9 +21,6 @@ services:
       - ORDER_QUEUE_NAME
     networks:
       - backend_services
-    depends_on:
-      rabbitmq:
-        condition: service_healthy
 networks:
   backend_services:
     driver: bridge
